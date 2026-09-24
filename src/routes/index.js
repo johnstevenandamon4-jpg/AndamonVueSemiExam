@@ -11,8 +11,8 @@ const routes = [
     component: HomePage
   },
   {
-    path: '/assignment',
-    name: 'Assignment',
+    path: '/assignments',
+    name: 'Assignments',
     component: AssignmentPage
   },
   {

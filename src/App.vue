@@ -1,14 +1,12 @@
 <template>
   <div>
-    <nav>
-      <RouterLink to='/'>Home Page</RouterLink>
+    <nav class="navbar">
+      <RouterLink to="/">Home</RouterLink>
       |
-      <RouterLink to='/assignment'>Assignment Page</RouterLink> 
+      <RouterLink to="/assignments">Assignments</RouterLink>
       |
-      <RouterLink to='/about'>About Page</RouterLink> 
+      <RouterLink to="/about">About</RouterLink>
     </nav>
-
-    <br>
-    <RouterView/>
+    <RouterView />
   </div>
 </template>

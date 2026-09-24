@@ -1,7 +1,6 @@
 <template>
+  <div>
+    <h1>About This App</h1>
 
-    <div>
-        <h1>This is About Page!</h1>
-    </div>
-
+  </div>
 </template>
